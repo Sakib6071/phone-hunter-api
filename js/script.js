@@ -28,12 +28,12 @@ function showData(data){
             console.log(item);
             div=document.createElement('div');
             div.innerHTML=`
-            <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="${item.image}" alt="Card image cap">
+            <div class="card w-75 mx-auto p-2">
+            <img class="card-img-bottom" src="${item.image}" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Name : ${item.phone_name}</h5>
               <p class="card-text">Brand : ${item.brand}</p>
-              <a href="#" class="btn btn-primary">Explore</a>
+              <button class="btn btn-primary d-block w-75 mx-auto">Explore</button>
             </div>
           </div>
             
