@@ -15,42 +15,32 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
+    <!-- Header Text -->
 <h2 class="fs-2 text-primary text-center mt-3">Find Your Phone</h2>
+
+<!-- Search box using bootstrap class -->
     <div class="input-group my-3 w-50 mx-auto">
         <input id="searchText" type="text" class="form-control" placeholder="Phone Name" aria-label="Recipient's username" aria-describedby="basic-addon2">
         <div class="input-group-append">
-          <button onclick="findPhone()" class="btn btn-outline-secondary" type="button">Search</button>
+        <button onclick="findPhone()" class="btn btn-outline-secondary" type="button">Search</button>
           
         </div>
       </div>
 
+
+      <!-- if phone not found then show it in this block -->
 <div id="alertMessage">
-
 </div>
 
-
+<!-- When click explore button and show single item details in this section -->
 <div id="phoneDetails">
-
 </div>
 
-
-
+<!-- When search the result, all result show in this section -->
       <div id="phone-container">
-
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- script-->
     <script
