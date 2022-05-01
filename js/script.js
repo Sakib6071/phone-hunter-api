@@ -66,11 +66,12 @@ const showSingleDetails=data=>{
     const div=document.createElement('div');
     singleContainer.classList.add('w-50');
     singleContainer.classList.add('mx-auto');
-    singleContainer.classList.add('border');
     singleContainer.classList.add('mb-5');
     singleContainer.classList.add('p-2');
     div.classList.add('row')
     div.classList.add('gx-4')
+    div.classList.add('border');
+    div.classList.add('p-2');
     div.innerHTML=`
     <div class="image col-md-6 col-lg-4">
       <img src="${data.data.image}" alt="">
